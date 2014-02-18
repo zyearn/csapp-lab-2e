@@ -12,7 +12,7 @@
 #include <ctype.h>
 #define MAXLINE 200
 
-void get_opt();
+void get_opt(int argc, char **argv);
 void do_init();
 void do_deinit();
 void do_L(void *addr, int size);
